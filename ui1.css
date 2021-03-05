@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/**********************HOME/INDEX PAGE***********************/
+body,
+html {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+/*NAV BAR*/
+nav h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+nav .col-md-3{
+    padding-bottom: 0px;
+}
+
+nav .col-md-4{
+    padding-bottom: 0px;
+}
+
+nav a{
+    color: black;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav{
+    text-align: center;
+    padding: 0px;
+    background-color: white;
+}
+
+#navbarToggleExternalContent a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+
+#navbarToggleExternalContent ul{
+    list-style: none;
+    padding: 0px;
+}
+
+#navbarToggleExternalContent li{
+    display: inline;
+    padding-right: 25px;
+    
+}
+
+
+#showcase{
+    background-image: url(https://www.moma.org/d/p/sa/maximum/moma_renovation_and_expansion.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+}
+
+#showcasetextbox1{
+    margin: 20%;
+    position: relative;
+    text-align: center;
+}
+
+#showcasetextbox1 a{
+    color: white;
+}
+
+#showcasetextbox1 a:hover{
+    color: yellow;
+}
+
+#showcasetextbox1:hover{
+    width: 400px; 
+    transition: 3s;
+}
+
+#showcasetextbox1 h2, p{
+    padding: 10px;
+    color: white;
+}
+
+#showcasetextbox1 h2{
+    font-size: 3rem;
+}
+
+#showcasetextbox1 p{
+    font-size: 1.25em;
+}
+
+
+#showcasetextbox h2, p{
+    padding: 10px;
+    color: white;
+}
+
+#showcasetextbox button{
+    margin-top: -10px;
+}
+
+#showcase2 {
+    background-image: url(https://www.moma.org/d/assets/W1siZiIsIjIwMTYvMTAvMDMvN29pZmIwcmExel9JTjAwODJfMDA3X3Bvc3RfYXMuanBnIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkwIC1yZXNpemUgMjAwMHgyMDAwXHUwMDNlIl1d/IN0082_007_post_as.jpg?sha=c27f3a7db32c8257);
+    background-repeat: no-repeat;
+    background-position: 100px - 1000px;
+    background-size: 100%;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+}
+
+#showcase3 {
+    background-image: url(https://www.moma.org/assets/visit/entrance-image--museum-crop-7516b01003659172f2d9dbc7a6c2e9d9.jpg);
+    background-repeat: no-repeat;
+    background-position: 500px - 1000px;
+    background-size: 100%;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+}
+
+#showcase3 .col-8{
+    border: thin solid red;
+    margin: auto;
+    height: 300px;
+    background-color: lightsalmon;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#showcase2 .col-md-4{
+    margin-top: 350px;
+}
+
+#becomeamemberfeature .col-8{
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 25%;
+}
+    
+.righty{
+    margin: 0px;
+}
+
+#landergif{
+    height: 80%;
+    width: 75%;
+}
+
+.lefty h2{
+    padding-left: 25px;
+    font-size: 2.75em;
+    font-weight: 900;
+    line-height: 3em;
+    margin-top: 0px;
+}
+
+.lefty h3{
+    padding-left: 25px;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 15px;
+}
+
+footer h3{
+    margin-left: 15px;
+    font-size: 2em;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    margin-left: 15px;
+    font-size: 1.75em;
+  }
+  
+  footer li{
+    display: inline;
+
+  }
+  
+  footer a{
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+  }
+
+
+  /***************************EXHIBITIONS PAGE**************************/
+
+
+
+#exhibitiondisplay .row .col-md-8{
+    padding: 0px;
+    overflow: hidden;
+    height: 50vh;
+}
+
+/*.imagecol img{
+    width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+*/
+#exhibitiondisplay a, h2{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+#exhibitiondisplay h2{
+    text-shadow: 4px 4px 2px rgba(0, 150, 150, 1);
+    font-size: 2.25em;
+}
+
+#exhibitiondisplay h2:hover{
+    font-size: 2.75em;
+    transition: font-size 2s;
+}
+
+
+/*************MEMBERSHIP PAGE*****************/
+
+
+
+@media (min-width: 665px){
+
+
+    #exhibitiondisplay .row .col-md-8{
+        padding: 0px;
+        overflow: hidden;
+    }
+
+}
